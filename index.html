@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+
+            <h1 class="presentacion__contenido__titulo">
+                BIENVENIDO - DIOS TE BENDIGA
+            </h1> 
+
+            <p class="presentacion__contenido__letrasMinusculas">! solo letras minusculas y sin acento</p>
+
+            <label for="myTextarea"></label>
+            <textarea id="myTextarea" rows="10" cols="50" class="presentacion__contenido__cajaTexto" placeholder="Ingrese texto aquí..."></textarea>
+           
+            <br>
+            <button id="encryptButton" class="presentacion__contenido__botonEncriptar">Encriptar</button>
+            <br>
+            <button id="decryptButton" class="presentacion__contenido__botonDesencriptar">Desencriptar</button>
+            <p id="output" class="presentacion__contenido__textoEncriptado"></p>
+            <div id="imagen">
+                <img src="/imagenes/Muñeco.png" alt="imagen de muñeco" class="presentacion__contenido__imagen">
+                <p class="presentacion__contenido__textoImagen">Ningun mensaje fue encontrado</p>
+                <p class="presentacion__contenido__textoImagen1">Ingresa el texto que desees encriptar o desencriptar.</p>   
+            </div>
+           
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Desarrollado por Alejandra Robles</p>
+    </footer>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
